@@ -9,5 +9,5 @@ struct GetMaximalResponse {
 }
 
 service calculator {
-    GetMaximalResponse getMaximal(1: GetMaximalRequest request)
+    GetMaximalResponse GetMaximal(1: GetMaximalRequest request)
 }
